@@ -1,0 +1,4 @@
+# External assembly references
+/r:System.Windows.Forms.dll
+
+/t:winexe /out:TestAppWin.exe *.cs

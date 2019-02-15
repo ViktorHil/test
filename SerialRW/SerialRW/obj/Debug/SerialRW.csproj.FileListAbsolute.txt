@@ -1,0 +1,7 @@
+C:\Users\VHil\source\repos\SerialRW\SerialRW\bin\Debug\SerialRW.exe.config
+C:\Users\VHil\source\repos\SerialRW\SerialRW\bin\Debug\SerialRW.exe
+C:\Users\VHil\source\repos\SerialRW\SerialRW\bin\Debug\SerialRW.pdb
+C:\Users\VHil\source\repos\SerialRW\SerialRW\obj\Debug\SerialRW.csprojAssemblyReference.cache
+C:\Users\VHil\source\repos\SerialRW\SerialRW\obj\Debug\SerialRW.csproj.CoreCompileInputs.cache
+C:\Users\VHil\source\repos\SerialRW\SerialRW\obj\Debug\SerialRW.exe
+C:\Users\VHil\source\repos\SerialRW\SerialRW\obj\Debug\SerialRW.pdb

@@ -1,0 +1,4 @@
+# External assembly references
+/r:System.Windows.Forms.dll
+
+/t:exe /out:TestAppRsp.exe *.cs
