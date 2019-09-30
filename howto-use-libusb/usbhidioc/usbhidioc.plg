@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: usbhidioc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP9004.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "\98ddk\src\hid\inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/usbhidioc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\data\@test2\usbhidioc.cpp"
+"C:\data\@test2\usbhidiocDlg.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP9004.TMP" 
+Creating temporary file "C:\TEMP\RSP9005.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "\98ddk\src\hid\inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/usbhidioc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\data\@test2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP9005.TMP" 
+Creating temporary file "C:\TEMP\RSP9006.TMP" with contents
+[
+hid.lib setupapi.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/usbhidioc.pdb" /machine:I386 /out:"Release/usbhidioc.exe" /libpath:"\98ddk\lib\i386\free" 
+".\Release\StdAfx.obj"
+".\Release\usbhidioc.obj"
+".\Release\usbhidiocDlg.obj"
+".\Release\usbhidioc.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP9006.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+usbhidioc.cpp
+usbhidiocDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+usbhidioc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
