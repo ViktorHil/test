@@ -1,0 +1,41 @@
+This file documents changes in the software, firmware and hardware of the
+Automator device. New entries are always appended to the end of the file.
+Scroll down to the bottom to see the most recent changes.
+
+
+* Release 2006-02-12
+
+- Fixed bug in usb-windows.c: If device was not found, we accepted the last
+  device seen which could be opened. This bug also leaked handles when multipe
+  HIDs were opened during device matching.
+- Fixed libusb based HID interface for Linux: Need to detach kernel side HID
+  driver before we can communicate with the device. Behave correctly: set
+  configuration and claim interface.
+- Added a Windows makefile "Makefile.windows".
+
+* Release 2006-02-20
+
+- Updated to new USB driver version with major bugfixes. See driver's
+  Changelog for details.
+
+* Release 2006-03-14
+
+- usbFunctionWrite() returned the inverse boolean value. This resulted in a
+  hang of the data download at the end of the first block. Fixed.
+
+* Release 2006-03-26
+
+- Fixed bug in downloader app: Duration must be more than 8 bit in size.
+- Added ISP connector to circuit diagram and board.
+- Better status consistency checking in usbFunctionWrite().
+- Updated USB driver to latest version.
+
+* Release 2007-03-29
+
+- 1M resistor on D+ is now pull-down instead of pull-up. A pull-up in
+  conjunction with the zener diode results in an undefined voltage on D+ if
+  no USB host is connected.
+- Updated USB driver to latest version.
+- Fixed warnings and error with latest compiler/avr-libc versions.
+
+* Release 2012-12-08
