@@ -1,0 +1,500 @@
+  203  history | grep merge
+  204  git diff TCUB4_WAZE-196-ftcub4-3527-implement-parsed TCUB4_WAZE-196-ftcub4-3527-implement-parsed
+  205  git diff TCUB4_WAZE-196-ftcub4-3527-implement-parsed origin/TCUB4_WAZE-196-ftcub4-3527-implement-parsed
+  206  history | grep melt
+  207  history | grep merge
+  208  git megre -t melt
+  209  git statsu
+  210  git status
+  211  git merge --abort
+  212  git log
+  213  git push origin TCUB4_WAZE-238-ftcub4-3942-apply-new-set -f
+  214  git stash list
+  215  git stash apply
+  216  git status
+  217  git status
+  218  git status
+  219  git stash
+  220  git fetch
+  221  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  222  git status
+  223  git lol
+  224  git reset --hard
+  225  git status
+  226  cd ..
+  227  ls -l
+  228  cd ..
+  229  ls -l
+  230  cd common
+  231  git fetch -a
+  232  git pull
+  233  git branch
+  234  cd ../..
+  235  cd vuc
+  236  cd vuc
+  237  git branch
+  238  git fetch -a
+  239  git status
+  240  git add G3DO_VuC_w_Tp/VuC_App/PARSED/src/bit_field.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/bit_field.h
+  241  git add G3DO_VuC_w_Tp/VuC_App/PARSED/component.def G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed_cmd.c
+  242  git status
+  243  git lol
+  244  git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n
+  245  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient."
+  246  git status
+  247  git log
+  248  history | grep push
+  249  git status
+  250  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  251  git status
+  252  cd ../../
+  253  ls -l
+  254  cd ..
+  255  ls -l
+  256  cd B4waze/
+  257  ls
+  258  cd vuc
+  259  ls -l
+  260  cd common
+  261  git lol
+  262  cd ..
+  263  ls -l
+  264  cd vuc
+  265  ls -l
+  266  ls -l
+  267  cd G3DO_VuC_w_Tp/
+  268  ls -l
+  269  cd VuC_App/
+  270  ls -l
+  271  cd PARSED
+  272  ls -l
+  273  cd src
+  274  ls -l
+  275  git diff HEAD^^ HEAD parsed.c
+  276  git diff HEAD^^ HEAD parsed.c
+  277  git diff HEAD~2 HEAD parsed.c
+  278  git diff HEAD~4 HEAD parsed.c
+  279  ls
+  280  gitk parsed.c
+  281  history | grep git diff
+  282  history | grep diff
+  283  git diff bundle4_waze
+  284  git diff bundle4-waze
+  285  git status
+  286  git status
+  287  git diff ../../OVTP/api/CddOvtp.c
+  288  git diff ../../OVTP/src/ovtp_task.c
+  289  git status
+  290  git diff parsed.c
+  291  git status
+  292  git add ../../OVTP/api/CddOvtp.c ../../OVTP/src/ovtp_task.c ../component.def parsed.c parsed_dbg.c ../../PowerManager/src/pm.h
+  293  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient."
+  294  git rebase bundle4-waze
+  295  git status
+  296  git fetch -a
+  297  history | grep push
+  298  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  299  git diff bundle4-waze
+  300  git fetch -a
+  301  cd ..
+  302  cd ..
+  303  cd ..
+  304  cd ..
+  305  cd ..
+  306  ls -l
+  307  cd common
+  308  git fetch -a
+  309  git pull
+  310  ls -l
+  311  cd ..
+  312  cd vuc
+  313  ls -l
+  314  git fetch -a
+  315  git diff bundle4-waze
+  316  git rebase bundle4-waze
+  317  git pull
+  318  git diff bundle4-waze
+  319  git log
+  320  cd /d/B4waze/vuc/vuc/G3DO_VuC_w_Tp/
+  321  git fetch -a
+  322  git pull
+  323  cd ..
+  324  cd ..
+  325  cd ..
+  326  cd ..
+  327  cd B4waze/
+  328  ls
+  329  ls -l
+  330  cd vuc
+  331  ls
+  332  ls -l
+  333  cd common
+  334  git branch list
+  335  git branch
+  336  cd ..
+  337  cd vuc/G3DO_VuC_w_Tp/
+  338  git log
+  339  git checkout bundle4-waze
+  340  git status
+  341  git add VuC_App/OVTP/api/CddOvtp.c VuC_App/PARSED/src/parsed.c VuC_App/PARSED/src/parsed_dbg.c
+  342  git commit -m "Stage"
+  343  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient 
+  344  git checkout bundle4-waze
+  345  git pull origin bundle4-waze
+  346  git checkout -
+  347  git rebase bundle4-waze
+  348  git mergetool -t meld
+  349  git rebase bundle4-waze
+  350  git rebase --continue
+  351  git status
+  352  git pull
+  353  git status
+  354  git rebase bundle4-waze
+  355  git mergetool -t meld
+  356  git rebase --continue
+  357  git mergetool -t meld
+  358  git rebase --continue
+  359  git mergetool -t meld
+  360  git rebase --continue
+  361  git status
+  362  git diff bundle4-waze
+  363  git merge bundle4-waze
+  364  git fetch -a
+  365  git diff bundle4-waze..TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  366  git diff bundle4-waze..TCUB4_WAZE-221-ftcub4-3859-the-parsedclient | grep VMH_PARSED_RESP_STATUS_T
+  367  git branch
+  368  git lol
+  369  git lol
+  370  git merge bundle4-waze
+  371  git lol
+  372  git log bundle4-wazegit q
+  373  git diff bundle4-waze..HEAD
+  374  git diff bundle4-waze..HEAD~1
+  375  git diff bundle4-waze..HEAD~2
+  376  git diff bundle4-waze..HEAD~3
+  377  git log bundle4-waze..HEAD
+  378  git diff bundle4-waze..HEAD~4
+  379  git log bundle4-waze..HEAD
+  380  git diff bundle4-waze..
+  381  git log bundle4-waze..HEAD
+  382  git log bundle4-waze
+  383  git diff a75467381b018aa8d99250cf44e43da964f90883..bundle4-waze
+  384  git log bundle4-waze
+  385  git status
+  386  git checkout bundle4-waze VuC_App/VMH/src/vmh_tables.c
+  387  git checkout bundle4-waze VuC_App/CANhandler/src/CMH_ReadCANSignals.c
+  388  git diff bundle4-waze..HEAD
+  389  git merge bundle4-waze VuC_App/PARSED/src/parsed.c
+  390  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.c
+  391  git diff bundle4-waze..HEAD
+  392  git checkout bundle4-waze VuC_App/CANhandler/src/can_mh_if.
+  393  git status
+  394  git add VuC_App/PARSED/src/parsed.c
+  395  git diff bundle4-waze..HEAD
+  396  git status
+  397  git add VuC_App/OVTP/src/ovtp_task.c VuC_App/PARSED/src/parsed.c VuC_App/PARSED/src/parsed_cmd.c VuC_App/PARSED/src/parsed_fsm.c
+  398  git status
+  399  history | grep commit
+  400  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  401  history | grep push
+  402  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  403  git pull
+  404  history | grep merge
+  405  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.c
+  406  history | grep push
+  407  git status
+  408  git merge
+  409  git merge VuC_App/OVTP/src/ovtp_task.c
+  410  git merge bundle4-waze VuC_App/OVTP/src/ovtp_task.c
+  411  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  412  history | grep merge
+  413  git merge bundle4-waze G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_task.c
+  414  git mergetool bundle4-waze
+  415  git status
+  416  git diff VuC_App/OVTP/src/ovtp_task.c
+  417  git add VuC_App/OVTP/src/ovtp_task.c
+  418  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  419  git status
+  420  git add VuC_App/OVTP/src/ovtp_task.c VuC_App/PARSED/src/parsed.c
+  421  git commit --amend
+  422  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  423  git reset --hard HEAD~7
+  424  git merge --squash HEAD@{1}
+  425  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  426  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  427  git log
+  428  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  429  git status
+  430  git add VuC_App/PARSED/src/parsed.c VuC_App/PARSED/src/parsed.h
+  431  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  432  git reset --hard HEAD~2
+  433  git merge --squash HEAD@{1}
+  434  git commit
+  435  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  436  git config --global credential.helper store
+  437  git config --global user.password "aspire5920g_nokia53201"
+  438  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  439  git pull
+  440  git mergetool bundle4-waze
+  441  git mergetool bundle4-waze G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h
+  442  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  443  git fetch -a
+  444  git pull
+  445  git status
+  446  history | grep mergetool
+  447  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.c
+  448  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.h
+  449  git status
+  450  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  451  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  452  git reset --hard HEAD~2
+  453  git merge --squash HEAD@{1}
+  454  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  455  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  456  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  457  git status
+  458  git checkout bundle4-waze
+  459  git pull origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  460  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.c
+  461  git status
+  462  git add VuC_App/OVTP/api/CddOvtp.c VuC_App/OVTP/src/ovtp_task.c VuC_App/PARSED/component.def VuC_App/PARSED/src/bit_field.c VuC_App/PARSED/src/bit_field.h VuC_App/PARSED/src/parsed.c VuC_App/PARSED/src/parsed.h VuC_App/PARSED/src/parsed_cmd.c VuC_App/PARSED/src/parsed_dbg.c VuC_App/PARSED/src/parsed_fsm.c VuC_App/PowerManager/src/pm.h
+  463  git status
+  464  git commit
+  465  git push origin HEAD
+  466  git log
+  467  git reset --hard HEAD 16c118e2d4d9f3b625ebc09570d822e51216f29a
+  468  git reset --hard 16c118e2d4d9f3b625ebc09570d822e51216f29a
+  469  git log
+  470  git reset --hard HEAD~1
+  471  git log
+  472  git pull  origin bundle4-waze
+  473  git log
+  474  git checkout -
+  475  git log
+  476  git rebase bundle4-waze
+  477  git mergetool -t meld
+  478  git status
+  479  git rebase bundle4-waze
+  480  git rebase --continue
+  481  git status
+  482  git lol
+  483  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  484  clear
+  485  git status
+  486  git rebase --continue
+  487  git log
+  488  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient 
+  489  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  490  history | commit
+  491  history | grep commit
+  492  history | grep commit
+  493  cd /d/B4waze/vuc/vuc/G3DO_VuC_w_Tp/
+  494  git status
+  495  git add VuC_App/PARSED/src/parsed.c
+  496  history | grep commit
+  497  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  498  git status
+  499  history
+  500  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient 
+  501  cd /d/B4waze/vuc/vuc
+  502  git fetch -a
+  503  git pull
+  504  git pull
+  505  git checkout bundle4-waze
+  506  git pull
+  507  git reset --hard
+  508  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  509  git fetch -a
+  510  git checkout bundle4-waze
+  511  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  512  git reset --hard
+  513  git fetch -all
+  514  git fetch --all
+  515  git pull
+  516  git checkout bundle4-waze
+  517  git fetch --all
+  518  git pull
+  519  git pull
+  520  git fetch --all
+  521  git pull
+  522  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  523  git fetch --all
+  524  git pull
+  525  git reset --hard origin/TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  526  git checkout bundle4-waze
+  527  git fetch --all
+  528  git reset --hard origin/bundle4-waze
+  529  git log
+  530  git status
+  531  git diff origin/bundle4-waze
+  532  git fetch
+  533  git pull origin bundle4-waze
+  534  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  535  git reset --hard
+  536  git status
+  537  git add G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h
+  538  git commit -m "FTCUB4-3859 : TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED hang"
+  539  git status
+  540  git diff G3DO_VuC_w_Tp/VuC_App/OVTP/src/OVTP_if.h
+  541  git status
+  542  git checkout -- G3DO_VuC_w_Tp/VuC_App/OVTP/api/CddOvtp.c
+  543  git status
+  544  gi diff G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c
+  545  git diff G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c
+  546  git status
+  547  git diff G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_main_if.h
+  548  git diff G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h
+  549  git diff G3DO_VuC_w_Tp/VuC_App/PowerManager/src/pm.c
+  550  git status
+  551  git add G3DO_VuC_w_Tp/VuC_App/CUMainExecution/src/cuApp_debug.c G3DO_VuC_w_Tp/VuC_App/OVTP/src/OVTP_if.h G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_main_if.h G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_task.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h G3DO_VuC_w_Tp/VuC_App/PowerManager/src/pm.c
+  552  git status
+  553  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  554  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient 
+  555  git lol
+  556  git checkout bundle4-waze
+  557  git fetch --all
+  558  git lol
+  559  git merge TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  560  git lol
+  561  git status
+  562  git lol
+  563  git status
+  564  git log
+  565  git log
+  566  git reset --hard HEAD^
+  567  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  568  git pull
+  569  git log
+  570  git status
+  571  git checkout bundle4-waze -- G3DO_VuC_w_Tp/VuC_App/CUMainExecution/src/
+  572  git diff
+  573  git status
+  574  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  575  git status
+  576  git lol
+  577  git reset --hard HEAD~2
+  578  git merge --squash HEAD@{1}
+  579  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  580  git lol
+  581  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient 
+  582  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  583  qgit log
+  584  git log
+  585  git reset --hard HEAD~4
+  586  git merge --squash HEAD@{1}
+  587  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  588  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  589  git checkout bundle4-waze
+  590  git fetch --all
+  591  git status
+  592  git lol
+  593  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  594  git fetch --all
+  595  gip pull
+  596  git pull
+  597  git diff origin
+  598  git merge origin/TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  599  git checkout bundle4-waze
+  600  git fetch --all
+  601  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  602  history | grep rebase
+  603   git rebase bundle4-waze
+  604  history | grep mergetool
+  605  git mergetool bundle4-waze VuC_App/PARSED/src/parsed.h
+  606  git mergetool bundle4-waze G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h
+  607  git mergetool bundle4-waze G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c
+  608   git rebase -continue
+  609   git rebase --continue
+  610  git mergetool bundle4-waze G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_task.c
+  611   git rebase --continue
+  612  git status
+  613  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  614  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient -f
+  615  git log
+  616  git log
+  617  git lol
+  618  git rebase bundle4-waze
+  619  git log
+  620  git log
+  621  git reset --hard HEAD~4
+  622  git log
+  623  git reset --hard HEAD~3
+  624  git log
+  625  git merge --squash HEAD@{1}
+  626  git log
+  627  git log
+  628  git lol
+  629  git checkout origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  630  git fetch --all
+  631  git pull
+  632  git stash
+  633  git pull
+  634  git lol
+  635  git reset --hard HEAD~4
+  636  git merge --squash HEAD@{1}
+  637  git status
+  638  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  639  git lol
+  640  git status
+  641  history | grep push
+  642  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  643  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient --force
+  644  git log
+  645  git log bundle4-waze
+  646  git checkout bundle4-waze
+  647  git fetch --all
+  648  git pull
+  649  git merge --abort
+  650  git reset --hard HEAD~10
+  651  git pull origin bundle4-waze
+  652  git log
+  653  git checkout TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  654  git rebase bundle4-waze
+  655  git lol
+  656  git log
+  657  git version
+  658  git lol
+  659  history | grep rebase
+  660  git rebase continue
+  661  git rebase --continue
+  662  history | grep mergetool
+  663  git mergetool -t meld
+  664  git status
+  665  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  666  git rebase --continue
+  667  git status
+  668  git rebase --abort
+  669  git rebase bundle4-waze
+  670  git mergetool -t meld
+  671  git rebase --continue
+  672  git status
+  673  git lol
+  674  git lol
+  675  git status
+  676  git log
+  677  git push origin TCUB4_WAZE-221-ftcub4-3859-the-parsedclient --force
+  678  git status
+  679  git lol
+  680  q
+  681  git fetch --all
+  682  git checkout TCUB4_WAZE-258-ftcub4-4107-parsed-hangs-when
+  683  git diff TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  684  git diff TCUB4_WAZE-221-ftcub4-3859-the-parsedclient
+  685  git status
+  686  git difftool --dir-diff -t meld TCUB4_WAZE-221-ftcub4-3859-the-parsedclient ./
+  687  git status
+  688  git diff
+  689  git status
+  690  history > cherry_pick.txt
+  691  git status
+  692  git add G3DO_VuC_w_Tp/VuC_App/OVTP/src/OVTP_if.h
+  693  git add G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_main_if.h G3DO_VuC_w_Tp/VuC_App/OVTP/src/ovtp_task.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.c G3DO_VuC_w_Tp/VuC_App/PARSED/src/parsed.h G3DO_VuC_w_Tp/VuC_App/PowerManager/src/pm.c
+  694  git status
+  695  git commit -m "FTCUB4-3859: TCUB4_WAZE-221 The PARSEDClient doesn't activate channel 0x01 if at least one PARSED channel is activated by the command from PARSEDOffBoardClient. Fixing PARSED ignition off behavior"
+  696  git push origin TCUB4_WAZE-258-ftcub4-4107-parsed-hangs-when
+  697  git commit --amend -m "FTCUB4-4107: TCUB4_WAZE-258 PARSED hangs when OVTP communication happens during Ignition Off"
+  698  git log
+  699  git push TCUB4_WAZE-258-ftcub4-4107-parsed-hangs-when --force
+  700  git push origin TCUB4_WAZE-258-ftcub4-4107-parsed-hangs-when --force
+  701  git lol
+  702  history > cherry_pick.txt
