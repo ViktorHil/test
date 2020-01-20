@@ -1,0 +1,63 @@
+#include <iostream>
+#include <time.h>
+#include <string>
+#include <inttypes.h>
+#include <array>
+#include <map>
+#include <unordered_map>
+#include <thread>
+#include <sys/time.h>
+#include <vector>
+
+#define THREAD_MAX 4
+#define COUNT_MAX 10000000
+
+void th_func( int id, int count) {
+    int res = 0;
+    for( int i = 0; i < count; i++) {
+//        std::cout << "Thread:" << id << "-" << i << std::endl;
+	res += i*count;
+    }
+}
+
+void th_func2( int id, int count) {
+//    int res = 0;
+    std::vector<std::string> v;
+
+    for( int i = 0; i < count; i++) {
+/*
+	int* val = new int;
+	*val = i*2;
+//	res += *val;
+	delete val;
+*/
+	v.push_back( std::to_string( i));
+    }
+}
+
+long long current_timestamp() {
+    struct timeval te; 
+    gettimeofday(&te, NULL); // get current time
+    long long milliseconds = te.tv_sec*1000LL + te.tv_usec/1000; // calculate milliseconds
+    // printf("milliseconds: %lld\n", milliseconds);
+    return milliseconds;
+}
+
+int main( int argc, char* argv[]) {
+    std::thread* th[THREAD_MAX];
+    for( int i = 0; i < THREAD_MAX; i++) {
+	th[i] = new std::thread( th_func2, i, COUNT_MAX/THREAD_MAX);
+    }
+    long long t = current_timestamp();
+    std::cout << "Delay 1 was :" << t << " ms" << std::endl;
+
+    for( int i = 0; i < THREAD_MAX; i++) {
+	th[i] -> join();
+	delete th[i];
+    }
+    std::cout << "Delay was :" << ((long long)current_timestamp() - t) << " ms" << std::endl;
+
+    return 0;
+}
+
+

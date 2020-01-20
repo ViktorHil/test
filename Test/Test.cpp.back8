@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+#include <inttypes.h>
+
+#define TEST_TABLE\
+    X(First)\
+    X(Second)\
+    X(Third)\
+    X(End)
+
+typedef enum {
+#define X(val) C##val,
+    TEST_TABLE
+#undef X
+}TestEnum;
+
+#define NAME_TO_STR(_val_) #_val_
+
+void printName( TestEnum en) {
+    switch( en) {
+#define X(_val_) case _val_: printf("%d:%s\n", en, #_val_); break;
+    TEST_TABLE
+#undef X
+    }
+}
+
+int main( int argc, char* argv[]) {
+    uint8_t	my_counter;
+    printf("Test:%s\n", NAME_TO_STR(my_counter));
+
+    for( int i = 0; i < 3; i++) {
+	printName( (TestEnum)i);
+    }
+
+    return 0;
+}
+
+

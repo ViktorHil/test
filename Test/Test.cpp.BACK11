@@ -1,0 +1,47 @@
+#include <iostream>
+#include <time.h>
+#include <string>
+#include <inttypes.h>
+#include <array>
+#include <map>
+#include <unordered_map>
+#include <thread>
+
+using namespace std;
+
+map<int, int> test_map;
+
+
+int main( int argc, char* argv[]) {
+    cout << "Test\n";
+    array<int,5> arr{1,2,3,4,5};
+
+    for( int i = 0; i < 10; i++) {
+	test_map.insert( std::pair<int,int>(i, i*3));
+    }
+
+    for( const auto &[first,second] : test_map) {
+    }
+
+
+
+/*
+    for( int i = 0; i < 10; i++) {
+//	auto v = test_map.find(i);
+//	std::cout << v.first << std::endl;
+	auto val = test_map.find(i);
+	std::cout << val->second << std::endl;
+
+	std::cout << (test_map.find(i))->first << std::endl;
+
+//	auto &[first,second] = test_map.find(i);
+    }
+
+*/
+
+
+
+    return 0;
+}
+
+

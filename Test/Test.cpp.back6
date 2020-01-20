@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+#include <inttypes.h>
+
+#define V_MEMRAM0
+#define V_MEMRAM1
+#define vuint8 uint8_t
+
+//#include "dev_par.h"
+
+
+typedef struct StructData
+{
+  uint8_t CellChirp_D_Rq : 3;
+  uint8_t CellLock_D_Rq : 3;
+  uint8_t CellRstrt_D_Rq : 2;
+  uint8_t CellPanic_D_Rq : 2;
+  uint8_t unused0 : 6;
+  uint8_t CellChirpRq_No_Actl : 8;
+  uint8_t CellLockRq_No_Actl : 8;
+  uint8_t CellPanicRq_No_Actl : 8;
+  uint8_t CellRstrtRq_No_Actl : 8;
+  uint8_t RollCodeCell_No_Actl_1 : 8;
+  uint8_t RollCodeCell_No_Actl_0 : 8;
+} struct_data;
+
+typedef union UnionData
+{
+  uint8_t b[8];
+  StructData sd;
+}uniou_data;
+
+char* pstr = "12345sgs";
+char  sstr[] = "67lwhflkasdhflkahflkashflkasjf0";
+
+int main( int argc, char* argv[]) {
+    printf("Test %d:%d\n", sizeof(pstr), sizeof(sstr));
+    UnionData ud;
+    for( int i = 0; i < 8; i++) {
+	ud.b[i] = 0;
+	printf("%2x:", ud.b[i]);
+    }
+
+    printf("\n");
+//    ud.sd.CellChirp_D_Rq = 0xFF;
+//    ud.sd.CellLock_D_Rq = 0xFF;
+    ud.sd.CellRstrt_D_Rq = 0xFF;
+    for( int i = 0; i < 8; i++) {
+	printf("%2x:", ud.b[i]);
+    }
+    return 0;
+}
+
+

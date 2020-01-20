@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <iostream>
+#include <time.h>
+
+#define TEST_TABLE \
+    ROW(ENUM0,"ENUM0") \
+    ROW(ENUM1,"ENUM1") \
+    ROW(ENUM2,"ENUM2") \
+
+enum
+{
+
+#define ROW(a,b) a,
+    TEST_TABLE
+#undef  ROW
+    END_OF_TABLE
+};
+
+
+const char* names[] =
+{
+#define ROW(a,b) b,
+    TEST_TABLE
+#undef  ROW
+};
+
+
+char	res[4096];
+
+
+int main( int argc, char* argv[]) {
+    printf("Test\n");
+
+    for( int i = 0; i < END_OF_TABLE; i++)
+    {
+	std::cout << "String[" << i << "]:" << names[i] << std::endl;
+    }
+
+
+
+
+
+
+}
+
+

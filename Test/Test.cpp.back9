@@ -1,0 +1,27 @@
+#include <iostream>
+#include <time.h>
+#include <string>
+#include <inttypes.h>
+#include <array>
+
+using namespace std;
+
+auto func( int i) -> int {
+    return i+1;
+}
+
+int main( int argc, char* argv[]) {
+    cout << "Test\n";
+    array<int,5> arr{1,2,3,4,5};
+    int i = 0;
+    for( auto elm : arr) {
+	cout << "Element[" << i++ << "]:" << elm << endl;
+	cout << func(i) << endl;
+    }
+
+
+
+    return 0;
+}
+
+

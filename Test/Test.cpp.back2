@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <iostream>
+
+class Test {
+    public:
+	Test() { std::cout << "Constructor Test" << std::endl;}
+        virtual ~Test() { std::cout << "Destructor Test" << std::endl; }
+	virtual void p1() { std::cout << "p1_Test" << std::endl; }
+	void p2() { std::cout << "p2_Test" << std::endl; }
+};
+
+class TestPrivate : public Test {
+    public:
+	TestPrivate() { std::cout << "Constructor TestPrivate" << std::endl;}
+        virtual ~TestPrivate() { std::cout << "Destructor TestPrivate" << std::endl; }
+	void p1() { std::cout << "p1_TestPrivate" << std::endl;}
+	void p2() { std::cout << "p2_TestPrivate" << std::endl; }
+};
+
+class Test2: public TestPrivate {
+    public:
+	void p1() { std::cout << "p1_Test2" << std::endl;}
+	void p2() { std::cout << "p2_Test2" << std::endl; }
+};
+
+class Test3: public Test2 {
+    public:
+	void p1() { std::cout << "p1_Test3" << std::endl;}
+	void p2() { std::cout << "p2_Test3" << std::endl; }
+};
+
+int main( int argc, char* argv[]) {
+///    TestPrivate* tp = new TestPrivate();
+    printf("Test\n");
+    Test *t[4]{0,0,0,0};
+    
+    t[0] = new Test2();
+    t[1] = new TestPrivate();
+    t[2] = new Test();
+    t[3] = new Test3();
+
+    for( int i = 0; i < 4; i++) {
+	t[i]->p1();
+    }
+
+    std::cout << "*******" << std::endl;
+    ((Test2*)t[3])->p2();
+    ((Test2*)t[3])->p1();
+    auto show = []() { std::cout << "lambda" << std::endl; };
+    show();
+
+    delete t[3];
+    delete t[2];
+    delete t[1];
+    delete t[0];
+
+}
+
+

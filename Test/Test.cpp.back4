@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+
+#define STR_LEN 	65536
+#define BLK_SZ		16   // 32768   // 16
+
+char	res[STR_LEN];
+int	delta;
+
+int main( int argc, char* argv[]) {
+
+    clock_t	begin = clock();
+    for( int i = 0; i < sizeof(res);)
+    {
+	memset( res+i, (char)i, BLK_SZ);
+	i += BLK_SZ;
+    }
+    clock_t	end = clock();
+
+    printf("Diff:%li\n", end-begin);
+    printf("%2x%2x%2x%2x%2x%2x%2x%2x\n", res[0], res[16], res[32], res[64], res[128], res[256], res[512], res[1024]);
+    return 0;
+}
